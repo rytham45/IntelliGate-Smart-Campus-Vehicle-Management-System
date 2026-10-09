@@ -1,0 +1,19 @@
+# Ignore all secrets, keys, and environment files
+keys/
+.env
+*.env
+serviceAccountKey.json
+
+# Python caches and environments
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Django local database
+db.sqlite3
+
+# Ignore heavy ML model files (optional, but recommended for GitHub)
+*.pt
+*.pth
